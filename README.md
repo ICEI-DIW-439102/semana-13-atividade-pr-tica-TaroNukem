@@ -10,10 +10,10 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome:Daniel Gomes Rolando
+- Matricula:926043
+- Proposta de projeto escolhida:Site de Livros
+- Breve descrição sobre seu projeto:Um site que mostra a descrição de autores brasileiros
 
 **Print da tela com a implementação**
 
