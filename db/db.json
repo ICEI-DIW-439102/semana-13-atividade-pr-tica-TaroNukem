@@ -1,18 +1,273 @@
 {
-  "usuarios": [
+  "autores": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": 1,
+      "nome": "Machado de Assis",
+      "descricaoCurta": "Considerado um dos maiores escritores da literatura brasileira.",
+      "descricaoCompleta": "Machado de Assis foi um dos maiores escritores brasileiros, fundador da Academia Brasileira de Letras e autor de clássicos como Dom Casmurro e Memórias Póstumas de Brás Cubas.",
+      "nascimento": "1839",
+      "nacionalidade": "Brasileiro",
+      "movimento": "Realismo",
+      "imagem": "https://upload.wikimedia.org/wikipedia/commons/9/95/Machado_de_Assis_1904.jpg",
+      "categoria": "Realismo",
+      "valor": "1839",
+      "tags": [
+        "Romance",
+        "Realismo",
+        "ABL"
+      ],
+      "destaque": true,
+      "livros": [
+        {
+          "titulo": "Dom Casmurro",
+          "descricao": "Romance clássico.",
+          "imagem": "https://..."
+        }
+      ]
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": 2,
+      "nome": "Clarice Lispector",
+      "descricaoCurta": "Uma das escritoras mais influentes do Brasil.",
+      "descricaoCompleta": "Clarice Lispector destacou-se pelo estilo introspectivo e inovador em seus romances e contos.",
+      "nascimento": "1920",
+      "nacionalidade": "Brasileira",
+      "movimento": "Modernismo",
+      "imagem": "https://...",
+      "categoria": "Modernismo",
+      "valor": "1920",
+      "tags": [
+        "Romance",
+        "Modernismo"
+      ],
+      "destaque": true,
+      "livros": [
+        {
+          "titulo": "A Hora da Estrela",
+          "descricao": "A história de Macabéa.",
+          "imagem": "https://..."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Jorge Amado",
+      "descricaoCurta": "Autor de importantes romances brasileiros.",
+      "descricaoCompleta": "Jorge Amado retratou a cultura e o povo baiano em diversas obras marcantes.",
+      "nascimento": "1912",
+      "nacionalidade": "Brasileiro",
+      "movimento": "Modernismo",
+      "imagem": "https://...",
+      "categoria": "Modernismo",
+      "valor": "1912",
+      "tags": [
+        "Bahia",
+        "Romance"
+      ],
+      "destaque": false,
+      "livros": [
+        {
+          "titulo": "Capitães da Areia",
+          "descricao": "Clássico da literatura brasileira.",
+          "imagem": "https://..."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Guimarães Rosa",
+      "descricaoCurta": "Importante escritor mineiro.",
+      "descricaoCompleta": "Guimarães Rosa revolucionou a literatura brasileira com sua linguagem inovadora.",
+      "nascimento": "1908",
+      "nacionalidade": "Brasileiro",
+      "movimento": "Modernismo",
+      "imagem": "https://...",
+      "categoria": "Modernismo",
+      "valor": "1908",
+      "tags": [
+        "Sertão",
+        "Modernismo"
+      ],
+      "destaque": true,
+      "livros": [
+        {
+          "titulo": "Grande Sertão: Veredas",
+          "descricao": "Uma das maiores obras da literatura brasileira.",
+          "imagem": "https://..."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "Monteiro Lobato",
+      "descricaoCurta": "Criador do Sítio do Picapau Amarelo.",
+      "descricaoCompleta": "Monteiro Lobato foi um dos maiores autores da literatura infantil brasileira.",
+      "nascimento": "1882",
+      "nacionalidade": "Brasileiro",
+      "movimento": "Pré-Modernismo",
+      "imagem": "https://...",
+      "categoria": "Pré-Modernismo",
+      "valor": "1882",
+      "tags": [
+        "Infantil",
+        "Pré-Modernismo"
+      ],
+      "destaque": false,
+      "livros": [
+        {
+          "titulo": "Reinações de Narizinho",
+          "descricao": "Clássico infantil.",
+          "imagem": "https://..."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nome": "Carlos Drummond de Andrade",
+      "descricaoCurta": "Um dos maiores poetas brasileiros.",
+      "descricaoCompleta": "Carlos Drummond de Andrade foi um dos principais representantes do Modernismo brasileiro.",
+      "nascimento": "1902",
+      "nacionalidade": "Brasileiro",
+      "movimento": "Modernismo",
+      "imagem": "https://...",
+      "categoria": "Modernismo",
+      "valor": "1902",
+      "tags": [
+        "Poesia",
+        "Modernismo"
+      ],
+      "destaque": false,
+      "livros": [
+        {
+          "titulo": "Alguma Poesia",
+          "descricao": "Primeiro livro do autor.",
+          "imagem": "https://..."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "nome": "Graciliano Ramos",
+      "descricaoCurta": "Autor de Vidas Secas.",
+      "descricaoCompleta": "Graciliano Ramos destacou-se por retratar a realidade do sertão nordestino.",
+      "nascimento": "1892",
+      "nacionalidade": "Brasileiro",
+      "movimento": "Modernismo",
+      "imagem": "https://...",
+      "categoria": "Regionalismo",
+      "valor": "1892",
+      "tags": [
+        "Regionalismo",
+        "Romance"
+      ],
+      "destaque": false,
+      "livros": [
+        {
+          "titulo": "Vidas Secas",
+          "descricao": "Clássico do regionalismo.",
+          "imagem": "https://..."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "nome": "Cecília Meireles",
+      "descricaoCurta": "Grande poetisa brasileira.",
+      "descricaoCompleta": "Cecília Meireles foi uma importante poetisa e escritora brasileira.",
+      "nascimento": "1901",
+      "nacionalidade": "Brasileira",
+      "movimento": "Modernismo",
+      "imagem": "https://...",
+      "categoria": "Modernismo",
+      "valor": "1901",
+      "tags": [
+        "Poesia",
+        "Modernismo"
+      ],
+      "destaque": false,
+      "livros": [
+        {
+          "titulo": "Romanceiro da Inconfidência",
+          "descricao": "Uma das obras mais conhecidas da autora.",
+          "imagem": "https://..."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "nome": "Lima Barreto",
+      "descricaoCurta": "Importante escritor do Pré-Modernismo.",
+      "descricaoCompleta": "Lima Barreto escreveu romances marcados pela crítica social.",
+      "nascimento": "1881",
+      "nacionalidade": "Brasileiro",
+      "movimento": "Pré-Modernismo",
+      "imagem": "https://...",
+      "categoria": "Pré-Modernismo",
+      "valor": "1881",
+      "tags": [
+        "Romance",
+        "Crítica Social"
+      ],
+      "destaque": false,
+      "livros": [
+        {
+          "titulo": "Triste Fim de Policarpo Quaresma",
+          "descricao": "Principal obra do autor.",
+          "imagem": "https://..."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "nome": "José de Alencar",
+      "descricaoCurta": "Um dos maiores nomes do Romantismo brasileiro.",
+      "descricaoCompleta": "José de Alencar foi um importante romancista brasileiro e autor de obras indianistas.",
+      "nascimento": "1829",
+      "nacionalidade": "Brasileiro",
+      "movimento": "Romantismo",
+      "imagem": "https://...",
+      "categoria": "Romantismo",
+      "valor": "1829",
+      "tags": [
+        "Romantismo",
+        "Indianismo"
+      ],
+      "destaque": false,
+      "livros": [
+        {
+          "titulo": "Iracema",
+          "descricao": "Clássico do romantismo brasileiro.",
+          "imagem": "https://..."
+        }
+      ]
+    }
+  ],
+
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Realismo"
+    },
+    {
+      "id": 2,
+      "nome": "Modernismo"
+    },
+    {
+      "id": 3,
+      "nome": "Romantismo"
+    },
+    {
+      "id": 4,
+      "nome": "Regionalismo"
+    }
+  ],
+
+  "comentarios": [
+    {
+      "id": 1,
+      "autorId": 1,
+      "usuario": "Daniel",
+      "texto": "Excelente escritor."
     }
   ]
 }

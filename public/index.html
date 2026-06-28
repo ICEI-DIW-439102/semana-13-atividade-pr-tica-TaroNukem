@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeBook</title>
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<nav class="menu">
+    <h1>WeBook</h1>
+
+    <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Autores</a></li>
+        <li><a href="#">Livros</a></li>
+        <li><a href="#">Sobre</a></li>
+    </ul>
+</nav>
+
+<div class="principal">
+
+    <header class="cabecalho">
+        <h1>WeBook</h1>
+        <p>Descubra autores brasileiros e suas principais obras.</p>
+    </header>
+
+    <section class="destaques">
+        <h2>Autores em Destaque</h2>
+
+        <div class="slider">
+            <button id="anterior">&#10094;</button>
+
+            <div id="slide-container"></div>
+
+            <button id="proximo">&#10095;</button>
+        </div>
+    </section>
+
+    <section>
+        <h2>Todos os Autores</h2>
+
+        <div class="lista-livros" id="lista-autores">
+        </div>
+    </section>
+
+    <section class="aluno">
+        <h2>Sobre o Autor do Site</h2>
+
+        <p>
+            Projeto desenvolvido para a disciplina de Desenvolvimento Web.
+        </p>
+
+        <p>
+            Aluno: Daniel Gomes Rolando
+        </p>
+
+        <p>
+            Curso: Engenharia de Software
+        </p>
+    </section>
+
+    <footer class="rodape">
+        <p>© 2026 WeBook</p>
+    </footer>
+
+</div>
+
+<script src="assets/scripts/app.js"></script>
+
+</body>
+</html>
